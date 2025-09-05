@@ -7,7 +7,7 @@
    
 }
 .nav-logo{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: orange;
     
@@ -56,6 +56,9 @@ nav ul li a:hover{
     transform: translateX(-300px);
     animation: sli 3s ease-out forwards;
 }
+.full-text p{
+    font-size: 20px;
+}
 @keyframes sli {
     to {
         opacity: 1;
@@ -63,7 +66,7 @@ nav ul li a:hover{
     }
 }
 .headline{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bolder;
     color: black;
 }
@@ -104,7 +107,7 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bolder;
     padding: 0;
     margin: 0;
@@ -114,7 +117,7 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
 }
 .dish-card{
     display: flex;
@@ -183,8 +186,8 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 70px 100px;
-    padding: 50px;
+    margin: 0 80px;
+    padding: 20px;
 }
 .tasty-part img{
     height: 800px;
@@ -192,7 +195,7 @@ nav ul li a:hover{
     filter: drop-shadow(5px 10px 15px rgb(103, 61, 19));
     opacity: 0;
     transform: translateX(-200px);
-    animation: slideInLeft 4s ease-out 4s forwards;
+    animation: slideInLeft 3s ease-out 3s forwards;
 
 }
 @keyframes slideInLeft {
@@ -204,7 +207,7 @@ nav ul li a:hover{
 .tasty-text{
     opacity: 0;
     transform: translateX(200px);
-    animation: slideIn 4s ease-out 4s forwards;
+    animation: slideIn 3s ease-out 3s forwards;
 }
 @keyframes slideIn {
     to {
@@ -214,10 +217,17 @@ nav ul li a:hover{
 }
 
 .tasty-text h2{
-    font-size: 40px;
+    font-size: 60px;
 }
 .tasty-text p{
     font-size: 20px;
+}
+
+.another-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
 }
 .read-card{
     width: 300px;
@@ -229,12 +239,26 @@ nav ul li a:hover{
     padding: 15px;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: start;
     transition: 0.3s;
+}
+.read-card h1{
+    font-size: 30px;
+}
+.read-card p{
+    font-size: 18px;}
+.read-card img{
+    height: 80px;
+    width: 80px;
 }
 .read-card:hover{
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     transform: scale(1.05);
+}
+.read-card a {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
 }
 .ex-card{
     width: 300px;
@@ -246,12 +270,28 @@ nav ul li a:hover{
     padding: 15px;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: start;
     transition: 0.3s;
+}
+.ex-card h1{
+    font-size: 30px;
+}
+.ex-card p{
+    font-size: 18px;
+}
+.ex-card img{
+    
+    height: 80px;
+    width: 80px;
 }
 .ex-card:hover{
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     transform: scale(1.05);
+}
+.ex-card a {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
 }
 .enjoy-card{
      width: 300px;
@@ -263,10 +303,134 @@ nav ul li a:hover{
     padding: 15px;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: start;
     transition: 0.3s;
+}
+.enjoy-card h1{
+    font-size: 30px;
+}
+.enjoy-card p{
+    font-size: 18px;
+}
+.enjoy-card img{
+    
+    height: 80px;
+    width: 80px;
+}
+.enjoy-card a {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
 }
 .enjoy-card:hover{
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     transform: scale(1.05);
+}
+.chef-text{
+    text-align: start;
+     opacity: 0;
+    transform: translateX(-200px);
+    animation: chef 5s ease-out 5s forwards;
+}
+@keyframes chef {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.chef-text h2{
+    font-size: 60px;
+}
+.chef-text p{
+    font-size: 25px;
+}
+.cheif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.cheif img{
+    height: 900px;
+    width: 500px;
+     filter: drop-shadow(20px 30px 50px rgb(71, 39, 39));
+     opacity: 0;
+    transform: translateX(200px);
+    animation: chef 5s ease-out 3s forwards;
+}
+@keyframes chef {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+.spices{
+    width: 300px;
+    height: 250px;
+   
+}
+.customer{
+    text-align: center;
+}
+.customer h2{
+    font-size: 60px;
+}
+.customer p{
+    font-size: 20px;
+}
+.piyu{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid orange;
+    width: 800px;
+    padding-top: 40px;
+    border-radius: 6px;
+    margin: 50px auto;
+}
+.piyu p{
+    font-size: 20px;
+    margin-top: 0 ;
+    padding-top: 0;
+}
+.pi{
+     margin-top: 30px ;
+    height: 150px;
+    width: 150px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+     padding-top: 90px;
+   
+}
+footer{
+     height: 450px;
+    background-image: rgb(151, 133, 133);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) ;
+}
+.foodman h1{
+    font-size: 40px;
+}
+.foodman p{ 
+    font-size: 20px;
+}
+footer ul{
+    list-style: none;
+    font-size: 20px;
+}
+.footer ul li{
+    margin-bottom: 20px;
+}
+.footer ul li:hover{
+   color: #FF8C00;
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+    padding-top: 30px;
 }
