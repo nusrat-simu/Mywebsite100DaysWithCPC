@@ -23,6 +23,12 @@ main>section{
     font-weight: 600;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-primary:hover{
+    background-color: #dc7703;
+    transform: scale(1.15);
 }
 .text-primary{
     color: #FF900E;
@@ -41,6 +47,7 @@ main>section{
 }
 .nav-link{
     text-decoration: none;
+    font-size: 20px;
     font-weight: 500;
 
 }
@@ -69,11 +76,79 @@ main>section{
 .banner-image{
     width: 100%;
 }
+.banner-description{
+    font-size: 16px;
+    text-align: center;
+}
 .teams{
     align-items: center;
+    gap: 100px;
 }
 .team-img{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
 }
+.our-feature h3{
+    font-size: 40px;
+}
+.our-feature p{
+    font-size: 20px;
+}
+.feature-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin: 50px auto;
+    padding: 20px;
+    gap: 40px;
+}
+.feature-text{
+    flex: 1;
+}
+.feature-text h2{
+    font-size: 32px;
+    color: black;
+    border-left: 4px solid orange;
+    padding-left: 15px;
+}
+.feature-text p{
+    font-size: 16px;
+    color: black;
+    line-height: 1.6;
+}
+.Feature-item{
+    margin-bottom: 18px;
+}
+.Feature-item h4{
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+.Feature-item p{
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+.ex-badge{
+
+}
+.ex-badge img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+.badge{
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    background: orange;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
