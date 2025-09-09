@@ -12,9 +12,6 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
-main>section{
-    margin-top: 130px;
-}
 .btn-primary{
     background-color: #FF900E;
     color: white;
@@ -39,6 +36,8 @@ main>section{
   color:   #727272;
 }
 .bg-light{
+    margin: 0;
+    padding: 0;
     background-color: rgba(255, 144, 14, 0.1);
 }
 .nav-item{
@@ -60,7 +59,7 @@ main>section{
     font-size: 3rem;
 }
 .navbar, .banner{
-    max-width: 1440px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 .banner-content{
@@ -81,6 +80,7 @@ main>section{
     text-align: center;
 }
 .teams{
+    margin-top: 90px;
     align-items: center;
     gap: 100px;
 }
@@ -96,17 +96,18 @@ main>section{
     font-size: 20px;
 }
 .feature-section{
+    max-width: 1400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    margin: 150px auto;
+    gap: 150px;
    
-    margin: 50px auto;
-    padding: 20px;
-    gap: 40px;
 }
 .feature-text{
-    flex: 1;
+    margin: 0;
 }
+
 .feature-text h2{
     font-size: 32px;
     color: black;
@@ -119,7 +120,14 @@ main>section{
     line-height: 1.6;
 }
 .Feature-item{
-    margin-bottom: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0, 0, 0.1);
+}
+.feat-sec{
+    width: 550px;
+    height: 950px;
 }
 .Feature-item h4{
     margin: 0;
@@ -132,23 +140,78 @@ main>section{
     line-height: 1.5;
 }
 .ex-badge{
-
+    position: relative;
 }
 .ex-badge img{
-    width: 100%;
+    
+    width: 650px;
+    height: 850px;
     border-radius: 8px;
     display: block;
 }
 .badge{
     position: absolute;
-    top: 20px;
-    left: -20px;
+    top: 750px;
+    left: -60px;
     background: orange;
+    height: 100px;
+    width: 180px;
     color: #fff;
-    padding: 15px 20px;
-    font-size: 18px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 30px;
     font-weight: bold;
-    border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 7px;
+}
+.section-tittle{
+    font-size: 40px;
+    
+}
+.fact-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.fact{
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 7px;
+}
+.fact-no{
+    margin: 5px;
+    font-size: 30px;
+}
+.sponsor-info{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sponsor-companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 120px;
+    margin-bottom: 100px;
+    filter: grayscale(100%);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #efe0cc;
+    margin: 40px auto;
+    font-size: 18px;
+    height: 50px;
+    max-width: 1200px;
+    padding: 0 40px;
 }
 
