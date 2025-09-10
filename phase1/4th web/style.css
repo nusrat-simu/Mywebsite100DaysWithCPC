@@ -1,0 +1,195 @@
+.text-gray{
+    color: rgba(3, 7, 18, 0.7);
+}
+.green-color{
+    color: rgba(29, 209, 0, 1)
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+
+}
+.nav h2{
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-link ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    list-style: none;
+}
+.nav-link li a{
+    
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.nav-btn{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 7px;
+     height: 46px;
+     width: 110px;
+    border: 2px solid rgba(29, 209, 0, 1);
+    border-radius: 6px;
+    background-color: rgba(29, 209, 0, 0.1);
+    transition: 0.3s;
+}
+.nav-btn:hover{
+    cursor: pointer;
+    transform: scale(1.16);
+}
+.nav-btn p{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(29, 209, 0, 1);
+}
+.nav-btn img{
+    height: 24px;
+    width: 24px;
+}
+.banner{
+    max-width: 1650px;
+    background-image: url(images/Rectangle\ 3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+     width: 100%;
+     height: 750px;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.banner-des{
+    padding-top: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-size: 64px;
+    color: rgba(255, 255, 255, 1);
+}
+.banner p{
+    color:rgba(255, 255, 255, 1);
+    font-size: 18px;
+}
+.banner button{
+    border: 1px solid rgba(29, 209, 0, 1);
+    background-color: rgba(29, 209, 0, 1);
+    color: rgba(3, 7, 18, 1);
+    font-size: 15px;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.banner button:hover{
+    cursor: pointer;
+    color: rgb(24, 98, 13);
+     transform: scale(1.15);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+    
+    
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 13px;
+    background-color: white;
+    position: absolute;
+    top: 845px;
+    left: 435px;
+    height: 90px;
+    width: 220px;
+    padding: 10px;
+    border-bottom: 3px solid rgba(29, 209, 0, 1);
+}
+.card1 img{
+    height: 64px;
+    width: 64px;
+}
+.card1 h5{
+    margin: 0;
+    font-size: 36px;
+}
+.card1 p{
+    font-size: 18px;
+    margin: 0;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 10px;
+     border-radius: 13px;
+     background-color: white;
+     position: absolute;
+    top: 845px;
+    left: 895px;
+    height: 90px;
+    width: 220px;
+    padding: 10px;
+     border-bottom: 3px solid rgba(29, 209, 0, 1);
+}
+.card2 img{
+    height: 64px;
+    width: 64px;
+}
+.card2 h5{
+    margin: 0;
+    font-size: 36px;
+}
+.card2 p{
+    font-size: 18px;
+    margin: 0;
+}
+.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 10px;
+     border-radius: 13px;
+     background-color: white;
+      position: absolute;
+    top: 845px;
+    left: 1300px;
+    height: 90px;
+    width: 220px;
+    padding: 10px;
+     border-bottom: 3px solid rgba(29, 209, 0, 1);
+}
+.card3 img{
+    height: 64px;
+    width: 64px;
+}
+.card3 h5{
+    margin: 0;
+    font-size: 36px;
+}
+.card3 p{
+    font-size: 18px;
+    margin: 0;
+}
+.text
+
+   
